@@ -24,7 +24,7 @@ import {
 import { AiFillPushpin, AiFillDelete } from 'react-icons/ai';
 import { BiEdit } from 'react-icons/bi';
 
-const API_BASE_URL = 'http://localhost:8001';
+const API_BASE_URL = 'https://notes-backend-9jt3.onrender.com';
 
 function App() {
   const [notes, setNotes] = useState([]);
